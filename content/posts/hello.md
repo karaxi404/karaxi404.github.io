@@ -1,6 +1,7 @@
 ---
 title: "Hello Hugo"
 slug: "hello"
+url: "/posts/hello/"        # 直接指定最终访问地址
 date: 2024-01-01T00:00:00Z
 publishDate: 2024-01-01T00:00:00Z
 draft: false
