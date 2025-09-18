@@ -2,15 +2,9 @@ baseURL = "https://karaxi404.github.io/"
 languageCode = "zh-cn"
 title = "我的 Hugo 博客"
 theme = "mytheme"
-paginate = 10
 
 [outputs]
 home = ["HTML", "RSS"]
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-buildFuture = true
-buildDrafts = false
+[markup.goldmark.renderer]
+unsafe = true
