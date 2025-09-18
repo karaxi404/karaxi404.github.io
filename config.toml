@@ -8,3 +8,8 @@ home = ["HTML", "RSS"]
 
 [markup.goldmark.renderer]
 unsafe = true
+[permalinks]
+  posts = "/posts/:slug/"
+
+buildFuture = true
+buildDrafts = false
