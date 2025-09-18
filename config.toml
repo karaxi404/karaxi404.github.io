@@ -4,4 +4,7 @@ title = "我的 Hugo 博客"
 theme = "mytheme"
 
 [outputs]
-home = ["HTML", "RSS"]   # ← 关键：主页既输出 HTML 也输出 RSS
+home = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe = true
