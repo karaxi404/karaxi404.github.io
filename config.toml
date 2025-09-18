@@ -11,3 +11,6 @@ home = ["HTML", "RSS"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+buildFuture = true
+buildDrafts = false
