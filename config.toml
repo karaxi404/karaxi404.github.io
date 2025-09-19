@@ -1,4 +1,4 @@
-baseURL = "https://karaxi404.github.io/"
+baseURL = "https://karaxi404.github.io/karaxi404/"
 languageCode = "zh-cn"
 title = "我的 Hugo 博客"
 theme = "mytheme"
